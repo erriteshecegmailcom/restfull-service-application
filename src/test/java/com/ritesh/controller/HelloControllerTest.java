@@ -14,7 +14,7 @@ public class HelloControllerTest {
 	
 	@Test
 	public void returnStaticNameTest() {
-		helloController.returnStaticName()
+		helloController.returnStaticName();
 	}
 	
 	@Test
