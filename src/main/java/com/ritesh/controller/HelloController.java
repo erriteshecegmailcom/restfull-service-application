@@ -6,8 +6,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.ritesh.application.Hello;
-
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @RestController
@@ -34,8 +32,8 @@ public class HelloController {
 	}
 	
 	@RequestMapping(value="/returnNameUsingPost", method = RequestMethod.POST)
-	public @ResponseBody String returnDynamicNameUsingPathVariableWithPost(@RequestBody Hello name){
-		return "Hello world ..... This is"+ name.getName();
+	public @ResponseBody String returnDynamicNameUsingPathVariableWithPost(@RequestBody String name){
+		return "Hello world ..... This is"+ name;
 	}
 
 }

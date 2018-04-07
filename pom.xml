@@ -40,11 +40,11 @@
 			<scope>test</scope>
 		</dependency>
 		
-		<dependency>
+		<!-- <dependency>
 			<groupId>com.ritesh.common</groupId>
 			<artifactId>restfull-service-common</artifactId>
 			<version>${project.version}</version>
-		</dependency>
+		</dependency> -->
 		
 		
 	</dependencies>
