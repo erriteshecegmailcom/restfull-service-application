@@ -16,6 +16,7 @@ public class HelloController {
 		return "Hello world ..... This is ritesh";
 	}
 	
+	
 	@RequestMapping("/returnName/{name}")
 	public @ResponseBody String returnDynamicNameUsingPathVariable(@PathVariable String name){
 		return "Hello world ..... This is........"+ name;
